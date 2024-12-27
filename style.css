@@ -1,0 +1,32 @@
+﻿h1 {
+    color: chartreuse;
+    background-color: darkblue;
+}
+
+h2 {
+    color: aqua;
+    background-color: black;
+}
+
+#parrafouno {
+    color:black;
+    background-color:floralwhite;
+    font-family:'Courier New', Times, serif;
+    font-size: 2em;
+}
+#parrafoTres {
+    color:darkblue;
+    font-family:'Courier New', Times, serif;
+}
+
+#parrafodos {
+    color: mediumspringgreen;
+    background-color: brown;
+    font-family: 'Footlight MT';
+}
+input{
+    background-color:burlywood;
+}
+button{
+    background-color:lightgreen;
+}
