@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+    <title>Mi primera Calculadora en HTML </title>
+    <link rel="stylesheet" href="style.css"/> <!--esto es para entrelazar la página de "index" con la de "style"-->
+    <script src="script.js"></script> <!--"src" es para entrelazar con Java Script-->
+</head>
+<body>
+    <!--<h1>Mi primer Texto</h1>
+    <h2>Mi primer Texto</h2>-->
+    <p id="parrafouno">
+        MI CALCULADORA BÁSICA
+    </p>
+    <!--<p id="parrafodos">
+        aquí escribimos un parrafo tallado en una piedra milenaria
+        Volaste hasta la oscura cicatriz de una cesárea
+        Estás en el perfume de la nobiliaria
+        Y en el papel arrugado de la chaqueta del paria Las,
+        tres de la mañana de otro lunes loco
+        Buscando en el cuaderno lo que nunca fue
+        Él sabe mis infiernos cuando me equivoco
+        Él tiene entre sus páginas presa mi fe
+
+        Divago entre palabras que me crecen solas
+        Que danzan a su antojo en este caos mental
+        El mago de la música, el que ya no vuela
+        Las flores donde piso vuelven a brotar
+    <div>-->
+
+    <input id="txtNum1" type="number" placeholder="Digite el numero 1:" /> <!--"Placeholder" es para que en el espacio para escribir, aparezca ese texto-->
+    <div>
+        <button id="btnSumar" onclick="Sumar ()">+</button>
+        <button id="btnRestar" onclick="Restar ()">-</button>
+        <button id="btnMultiplicar" onclick="Multiplicar ()">x</button>
+        <button id="btnDividir" onclick="Dividir ()">/</button>
+    </div>
+    <div>
+        <input id="txtNum2" type="number" placeholder="Digite el numero 2:" /> <!--"Placeholder" es para que en el espacio para escribir, aparezca ese texto--> </p>
+        <button onclick="Escribir('7')" id="btn7">7</button>
+        <button onclick="Escribir('8')" id="btn8">8</button>
+        <button onclick="Escribir('9')" id="btn9">9</button>
+    </div>
+    <div>
+        <button onclick="Escribir('4')" id="btn4">4</button>
+        <button onclick="Escribir('5')" id="btn5">5</button>
+        <button onclick="Escribir('6')" id="btn6">6</button>
+    </div>
+    <div>
+        <button onclick="Escribir('1')" id="btn1">1</button>
+        <button onclick="Escribir('2')" id="btn2">2</button>
+        <button onclick="Escribir('3')" id="btn3">3</button>
+    </div>
+    <div>
+        <button onclick="Borrar()" id="btnCE">C</button>
+        <button onclick="Escribir('0')" id="btn0">0</button>
+        <button onclick="BorrarUltimo()" id="btnBorrar">/</button>
+        <button onclick="Operacion()" id="btnIgual">=</button>
+    </div>
+    <p id="parrafoTres">
+        SI. Numpaque Miguel- sección 1, Cohorte lV
+    </p>
+
+</body>
+</html>
